@@ -3,7 +3,7 @@ import pylab
 
 
 def draw_grafic(cells, foods, steps, history_gen_vision, generations, x_num):
-    """Функция строящая графики в конце симуляции
+    """Функция, строящая графики в конце симуляции
     """
     pylab.subplot(2, 3, 1)
     plt.plot(steps, cells, c='red')

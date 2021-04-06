@@ -52,14 +52,14 @@ def __draw_grid(root):
 
 
 def start_draw(root, cells):
-    """Функция вызывающая функции __draw_grid и draw_first_cell
+    """Функция, вызывающая функции __draw_grid и draw_first_cell
     """
     __draw_grid(root)
     draw_first_cell(root, cells)
 
 
 def draw_simulation(root, foods, meats):
-    """Функция отрисоки линий, еды и мяса на поле
+    """Функция отрисовки линий, еды и мяса на поле
     """
     for i in p.event.get():
         if i.type == QUIT:
